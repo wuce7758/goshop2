@@ -1,11 +1,11 @@
-package org.goshop.store.mapper.read;
+package org.goshop.goods.mapper.master;
 
 
 import org.goshop.goods.pojo.GoodsType;
 
 import java.util.List;
 
-public interface ReadGoodsTypeMapper {
+public interface GoodsTypeMapper {
     int deleteByPrimaryKey(Integer typeId);
 
     int insert(GoodsType record);

@@ -46,7 +46,7 @@ public class StoreClassServiceImpl implements StoreClassService {
     public PageInfo<StoreClass> findTreePageByParentId(Integer curPage,Integer pageSize,Long parentId) {
         PageUtils.startPage(curPage,pageSize);
         //2、查询结果
-         List<StoreClass> list=storeClassMapper.findTreeByParentId(parentId);
+        List<StoreClass> list=storeClassMapper.findTreeByParentId(parentId);
         //3、取分页后结果
         PageInfo<StoreClass> pageInfo = new PageInfo<>(list);
         return pageInfo;

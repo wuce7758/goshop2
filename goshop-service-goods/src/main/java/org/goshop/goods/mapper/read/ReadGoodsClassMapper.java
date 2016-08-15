@@ -1,4 +1,4 @@
-package org.goshop.store.mapper.read;
+package org.goshop.goods.mapper.read;
 
 import org.apache.ibatis.annotations.Param;
 import org.goshop.goods.pojo.GoodsClass;
